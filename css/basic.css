@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    /* fonts */
+
+    /* font-family */
+    --ff: 'Inter', sans-serif;
+
+    /* font-weight */
+    --sfw: 400;
+    --lfw: 500;
+    --xlfw: 700;
+
+    /* font-size */
+    --fs: 16px;
+
+    /* line-height */
+    --lh: 19.36px;
+    /* /fonts */
+
+    /* colors */
+    --bg-clr: #EBEFFF;
+    --accent-clr: #656ED3;
+    --cont-clr: #AFB3FF;
+    --text-clr: #000000;
+    --heading-clr: #1A1A1A;
+    --white: #FFFFFF;
+}
